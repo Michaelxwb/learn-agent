@@ -47,11 +47,12 @@ Agent Loop
 
 | 入口 | 对应前端 | 链接 |
 | --- | --- | --- |
-| 20 章交互式学习入口（deepseek 系列） | deepseek | [`./index.html`](./index.html) |
-| 20 章总览（GLM 系列） | glm | [`./glm总览.html`](./glm总览.html) |
-| 1—20 章总览（GPT 生成系列） | gpt | [`./gpt生成总览.html`](./gpt生成总览.html) |
+| 三套总导航（20 章 × 三套矩阵，推荐先看） | — | [`./index.html`](./index.html) |
+| 20 章交互式学习入口（deepseek 系列） | deepseek | [`./html/deepseek/index.html`](./html/deepseek/index.html) |
+| 20 章总览（GLM 系列） | glm | [`./html/glm/glm总览.html`](./html/glm/glm总览.html) |
+| 1—20 章总览（GPT 生成系列） | gpt | [`./html/gpt/gpt生成总览.html`](./html/gpt/gpt生成总览.html) |
 
-三个入口各自聚合对应前缀的章节页（`第X章deepseek生成.html`、`第X章glm生成.html`、`第X章gpt生成.html`）。第 1—7 章内容已与最新教程正文同步；第 8—20 章请以仓库根目录的 Markdown 文章为准。
+三套页面已按前端归类：`html/deepseek/`、`html/glm/`、`html/gpt/`，各自入口聚合同目录下对应前缀的章节页（`第X章deepseek生成.html` 等）。根目录的 `index.html` 是纯导航总览，不承载学习内容。第 1—20 章三套页面均已与最新教程正文核对同步。
 
 ## 20 章地图
 
