@@ -11,6 +11,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 "Segoe UI","Mi
 .wrap{max-width:1060px;margin:0 auto;padding:40px 20px 80px}
 h1{font-size:26px;margin:8px 0 6px}
 .kicker{font-size:12.5px;letter-spacing:2px;color:var(--accent);font-weight:600}
+.head-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .lead{color:var(--muted);margin:10px 0 26px;max-width:64em}
 .notice{background:#fff;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;padding:12px 16px;font-size:13.5px;margin-bottom:28px}
 .notice b{color:var(--ink)}
@@ -31,7 +32,7 @@ footer{margin-top:34px;color:var(--muted);font-size:12.5px}
 </head>
 <body>
 <div class="wrap">
-<div class="kicker">AGENT TUTORIAL · 20 章</div>
+<div class="head-row"><div class="kicker">AGENT TUTORIAL · 20 章</div><a class="github-button" href="https://github.com/goehou/learn-agent" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star goehou/learn-agent on GitHub">Star</a></div>
 <h1>Agent 架构实操 · 教程总览</h1>
 <p class="lead">从最小 Agent Loop 到完整 Harness 的 20 章中文教程。三套交互式学习页由不同模型基于教程文章生成，可对照阅读。</p>
 <div class="notice"><b>说明：</b>最近一次文章更新大幅改写了第 8–20 章。三套页面（gpt / glm / deepseek）的第 8–20 章均已按新文章核对更新，第 1–7 章与文章同步。</div>
@@ -68,5 +69,6 @@ footer{margin-top:34px;color:var(--muted);font-size:12.5px}
 </div>
 <footer>三套页面为模型生成的学习存档；文章最新内容以仓库根目录的 Markdown 为准。</footer>
 </div>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>
